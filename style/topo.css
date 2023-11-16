@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+  }
+
+  .menu-lateral {
+    background-color: #f4f4f4;
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    padding-top: 60px; /* Para manter o menu abaixo do cabeçalho */
+  }
+
+  .menu-lateral ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .menu-lateral ul li {
+    padding: 10px 0;
+  }
+
+  .menu-lateral ul li a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 5px 10px;
+  }
+
+  .menu-lateral ul li a:hover {
+    background-color: #ddd;
+  }
+
