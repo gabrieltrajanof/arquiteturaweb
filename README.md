@@ -2,4 +2,4 @@
 
 Projeto universitario para o mundo.
 
-Grupo: Gabriel Trajano, Jão Pedro e Diego Porto.
+Grupo: Gabriel Trajano, João Pedro e Diego Porto.
