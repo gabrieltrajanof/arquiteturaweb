@@ -1,4 +1,5 @@
 <h2>Sobre</h2>
+<?php include_once 'conecta.inc.php'; ?>
 <div>
 	<?php 
 	// Trazendo dados da tabela Página
