@@ -1,0 +1,23 @@
+
+.menu {
+  background-color: #333;
+  width: 50%;
+  height: 20px;
+  font-size: 18px;
+  align-items: center;
+  position: absolute;
+  margin-top: -40px;
+  margin-left: 40%;
+}
+
+.menu a {
+  color: white;
+  padding: 30px;
+}
+
+.body{
+  float: right;
+  width: 85%;
+  height: 100%;
+  margin: 30px -10px;
+}

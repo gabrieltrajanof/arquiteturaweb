@@ -13,7 +13,7 @@ header {
   .menu-lateral {
     background-color: #f4f4f4;
     width: 200px;
-    position: fixed;
+    position: absolute;
     height: 100%;
     padding-top: 60px; /* Para manter o menu abaixo do cabeçalho */
   }
