@@ -1,7 +1,6 @@
-<?php include "config.inc.php"; ?>
 <?php
 
-$busca = "SELECT * FROM paginas order by id";
+$busca = "SELECT * FROM projetos order by id";
 
 $todos = mysqli_query($conexao, $busca);
 
@@ -9,8 +8,7 @@ $todos = mysqli_query($conexao, $busca);
 <table class='table table-hover table-striped table-bordered'>
     <tr>
         <th>ID</th>
-        <th>Nome da página</th>
-        <th>Link</th>
+        <th>PROJETO</th>
         <th>Conteúdo</th>
         <th>Ações</th>
     </tr>
@@ -18,12 +16,11 @@ $todos = mysqli_query($conexao, $busca);
     
     <tr>
         <td><?=$dados['id'];?></td>
-        <td><?=$dados['nome'];?></td>
-        <td><?=$dados['link'];?></td>
+        <td><?=$dados['projeto'];?></td>
         <td><?=$dados['conteudo'];?></td>
         <td>
-            <button class='btn btn-success'><a href="?pg=alterar&id=<?=$dados['id']; ?>">Editar</a> </button>
-            <button class='btn btn-danger'>Excluir</button>
+            <button class='btn btn-success'><a href="?pg=alterar.projeto&id=<?=$dados['id']; ?>">Editar</a> </button>
+            <button class='btn btn-danger'><a href="?pg=alterar.projeto&del=<?=$dados['id']; ?>">Excluir</a></button>
         </td>
     </tr>
     

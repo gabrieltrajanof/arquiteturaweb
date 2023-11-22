@@ -1,15 +1,17 @@
-<h2>Perguntas Frequentes</h2>
+<h2>Dúvidas</h2>
 <div>
 	<?php 
-	// Trazendo dados da tabela Página
+	// Trazendo dados da tabela FAQ
 	$query = mysqli_query($conexao, "SELECT * FROM faq");
 	
-    // Litando valores retornados da tabela "paginas"
+    // Litando valores retornados da tabela "fAQ"
     while($tabela = mysqli_fetch_array($query)){
-        echo "<b>{$tabela['perguntas']}</b><br>";
-        echo $tabela['respostas'];
-    }
-	?>
+    ?>
+
+    <?= $tabela['pergunta']; ?> <br>
+    <?= $tabela['resposta']; ?>
+
+    <?php } ?>
 	
 
 </div>

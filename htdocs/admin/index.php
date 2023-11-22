@@ -1,7 +1,7 @@
 <?php
-    include "config.inc.php";
+    include "../conecta.inc.php";
 
-    require_once "valida_coo.inc.php";
+
         
 ?>
 <!DOCTYPE html>
@@ -40,17 +40,42 @@
                 <h1 class="page-header">Painel Admin </h1>
                     <ul class="nav">
                         <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="?pg=inserir">Inserir Nova pagina</a>
+                         <a class="nav-link" href="../index.php">HOME</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                        <a class="nav-link" href="?pg=listar.frp">Listar Formulários </a>
+                        </li>
+
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="?pg=inserir.projeto">Inserir Novo Projeto</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="?pg=listar">Listar Paginas</a>
-                         </li>
-                         <li class="nav-item">
-                         <a class="nav-link" href="?pg=alterar">Atualizar Paginas</a>
-                         </li>
-                         <li class="nav-item">
-                         <a class="nav-link" href="index.php">HOME</a>
-                         </li>
+                        <a class="nav-link" href="?pg=listar.projeto">Listar "projetos"</a>
+                        </li>
+
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="?pg=inserir.contato">Inserir Novo contato</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="?pg=listar.contato">Listar "contato"</a>
+                        </li>
+
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="?pg=inserir.sobre">Inserir Novo "Sobre"</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="?pg=listar.sobre">Listar "Sobre"</a>
+                        </li>
+
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="?pg=inserir.faq">Inserir Novo "FAQ"</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="?pg=listar.faq">Listar "FAQ"</a>
+                        </li>
+
+
                     </ul>
             </div>
         </div>

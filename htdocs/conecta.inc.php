@@ -5,8 +5,6 @@
     // conectando ao BD criado
     $db = mysqli_select_db($conexao, "projetofinal");
 
-    // Executando query e retornando valores da tabela "faleconosco"
-    $query = mysqli_query($conexao, "SELECT * FROM paginas");
 
 
 

@@ -1,16 +1,17 @@
-<h2>Sobre</h2>
-<?php include_once 'conecta.inc.php'; ?>
+<h2>contatos</h2>
 <div>
 	<?php 
-	// Trazendo dados da tabela Página
-	$query = mysqli_query($conexao, "SELECT * FROM sobre WHERE id");
+	// Trazendo dados da tabela sobre
+	$query = mysqli_query($conexao, "SELECT * FROM sobre");
 	
-    // Litando valores retornados da tabela "paginas"
+    // Litando valores retornados da tabela "sobre"
     while($tabela = mysqli_fetch_array($query)){
-        echo $tabela['fator'];
-        echo $tabela['Descrição'];
-    }
-	?>
+    ?>
+
+    <?= $tabela['fator']; ?> <br> 
+    <?= $tabela['descricao']; ?>
+
+    <?php } ?>
 	
 
 </div>

@@ -1,9 +1,4 @@
-<?php
-          $sql = mysqli_query($conexao,"SELECT nome,link FROM paginas ORDER BY id");
-          while($tabela = mysqli_fetch_array($sql)){
-        echo "<li><a href=?pg=$tabela[link]>$tabela[nome]</a></li>";
-      }
-        ?>
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="?pg=principal">MENU</a>
