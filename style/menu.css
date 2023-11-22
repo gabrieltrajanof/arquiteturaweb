@@ -1,23 +1,44 @@
 
+
 .menu {
-  background-color: #333;
+  background-color: #935427;
   width: 50%;
   height: 20px;
   font-size: 18px;
   align-items: center;
   position: absolute;
-  margin-top: -40px;
+  margin-top: -60px;
   margin-left: 40%;
 }
 
 .menu a {
   color: white;
   padding: 30px;
+  text-decoration: none;
 }
 
 .body{
   float: right;
-  width: 85%;
-  height: 100%;
-  margin: 30px -10px;
+  width: 80%;
+  
+  margin: 0px 50px;
+  background-color: rgb(194, 194, 194);
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+#logo{
+  background-color: #935427;
+  width: 150px;
+  margin-left: 50px;
+}
+
+#rodape{
+  bottom: 0;
+  left: 35%;
+  height: 150px;
+  position: fixed;
+  width: 100%;
+  text-align: center;
 }

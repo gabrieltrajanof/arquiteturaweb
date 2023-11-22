@@ -1,6 +1,7 @@
 <?php
 include_once("topo.php");
 include_once("menu.php");
+include_once("rodape.php");
 
 if(empty($_SERVER["QUERY_STRING"])){
     $var = "home.php";

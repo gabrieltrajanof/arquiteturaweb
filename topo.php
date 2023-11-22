@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="style/menu.css"/>
 
 <header>
-<h1>Diego Porto</h1>
+<img id="logo" src="img/logo.png">
 </header>
 
 <div class="menu-lateral">
