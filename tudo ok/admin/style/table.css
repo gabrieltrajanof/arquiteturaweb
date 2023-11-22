@@ -2,8 +2,6 @@
 .custom-table {
     width: 100%;
     border-collapse: collapse;
-    margin: 50px;
-    
 }
 
 /* Estilo para as células de cabeçalho (th) */
@@ -14,12 +12,10 @@
     padding: 10px;
     text-align: left;
     border: 1px solid #ddd;
-    text-align: center;
 }
 
 /* Estilo para as células normais (td) - opcional, caso tenha dados */
 .custom-table td {
     padding: 8px;
     border: 1px solid #ddd;
-    text-align: center;
 }
