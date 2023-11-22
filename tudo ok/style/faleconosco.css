@@ -1,0 +1,45 @@
+/* Reset de estilos para o formulário */
+.custom-form {
+    width: 70%; /* largura do formulário */
+    margin: auto; /* centralizar o formulário na página */
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para os rótulos */
+.custom-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilo para os campos de entrada */
+.custom-form input[type="text"],
+.custom-form input[type="email"],
+.custom-form input[type="tel"],
+.custom-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Estilo para o botão */
+.custom-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #7e0000;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+

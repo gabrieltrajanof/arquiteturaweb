@@ -1,9 +1,9 @@
 <div class="menu">
 
 <a href="?pg=sobre">Sobre</a>
-<a href="?pg=precos">Projetos</a>
-<a href="?pg=servicos">Serviços</a>
-<a href="?pg=faleconosco">Contato</a>
+<a href="?pg=projetos">Projetos</a>
+<a href="?pg=contatos">Contato</a>
+<a href="?pg=frp">Fale Conosco</a>
 <a href="?pg=faq">FAQ</a>
 <a href="admin/index.php">Admin</a>
 

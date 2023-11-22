@@ -1,25 +1,27 @@
 
-
 .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
   background-color: #935427;
-  width: 60%;
-  height: 20px;
-  font-size: 18px;
-  position: absolute;
-  margin-top: -60px;
-  margin-left: 30%;
+  padding: 10px;
+  font-weight: bold;
 }
-.menu a:hover {
-  background-color: #67493A;
-  border-radius: 20px;
-}
-
 
 .menu a {
-  color: white;
-  padding: 30px;
   text-decoration: none;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 5px;
+  background-color: #311b0f;
 }
+
+.menu a:hover {
+  background-color: #a87054;
+}
+
 
 .body{
   float: right;

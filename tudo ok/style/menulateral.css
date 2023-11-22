@@ -25,9 +25,9 @@ header {
   }
 
   .menu-lateral ul {
-    list-style: none;
     padding: 0;
     margin: 0;
+    font-size: 18px;
   }
 
   .menu-lateral ul li {

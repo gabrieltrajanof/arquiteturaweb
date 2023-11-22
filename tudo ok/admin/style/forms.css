@@ -1,0 +1,47 @@
+/* Reset de estilos para o formulário */
+.mb-3 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+/* Estilo para os rótulos */
+.mb-3 label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+/* Estilo para os inputs */
+.mb-3 input[type="text"],
+.mb-3 input[type="email"],
+.mb-3 input[type="password"],
+.mb-3 input[type="submit"] {
+    width: 30%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    align-items: center;
+}
+
+/* Estilo para o botão */
+.mb-3 button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #7e0000;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Estilo para o botão ao passar o mouse */
+.mb-3 button:hover {
+    background-color: #686868;
+}

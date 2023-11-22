@@ -5,7 +5,7 @@ $busca = "SELECT * FROM projetos order by id";
 $todos = mysqli_query($conexao, $busca);
 
 ?>
-<table class='table table-hover table-striped table-bordered'>
+<table class='custom-table'>
     <tr>
         <th>ID</th>
         <th>PROJETO</th>

@@ -1,13 +1,13 @@
-<form action="?pg=inserir.contato.db" method="post">
-    <div class="mb-3">
-        <label>Tipo</label>
+<form class="mb-3" action="?pg=inserir.contato.db" method="post">
+    <div >
+        <label>Tipo:</label>
         <input type="text" name="tipo" class="form-control">
     </div>
-    <div class="mb-3">
-        <label>Contato</label>
+    <div >
+        <label>Contato:</label>
         <input type="text" name= "contato" class="form-control">
     </div>
-    <div class="mb-3">
+    <div >
         <button type="submit" class="btn btn-primary">Cadastrar</button>
     </div>
 </form>

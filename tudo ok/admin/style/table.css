@@ -1,0 +1,25 @@
+/* Estilo para a tabela */
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 50px;
+    
+}
+
+/* Estilo para as células de cabeçalho (th) */
+.custom-table th {
+    background-color: #7e0000;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Estilo para as células normais (td) - opcional, caso tenha dados */
+.custom-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
