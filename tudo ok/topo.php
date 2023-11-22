@@ -12,6 +12,8 @@
   <li><a href="?pg=servicos">Serviços</a></li>
   <li><a href="?pg=faleconosco">Contato</a></li>
   <li><a href="?pg=faq">FAQ</a></li>
+  <li><a href="admin/index.php">Admin</a></li>
+
 </ul>
 </div>
 
