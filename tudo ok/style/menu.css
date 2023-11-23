@@ -29,6 +29,8 @@
   border-radius: 20px;
   padding-left: 20px;
   padding-top: 20px;
+  padding-bottom: 100px;
+  position: relative;
 }
 
 #logo{
@@ -37,11 +39,16 @@
   margin-left: 50px;
 }
 
-#rodape{
-  bottom: 0;
-  left: 35%;
-  height: 150px;
-  position: absolute;
-  width: 100%;
-  text-align: center;
+#rodape {
+  float:inline-end;
+  padding: 20px;
+  width: auto;
+  margin-right: 5%;
+}
+
+#footer{
+  float:inline-end;
+  padding: 20px;
+  width: auto;
+  margin-right: 45%;
 }
