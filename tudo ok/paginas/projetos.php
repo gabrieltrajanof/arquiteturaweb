@@ -1,4 +1,4 @@
-<h2>PROJETOS</h2>
+<h2>Projetos</h2>
 <div>
 	<?php 
 	// Trazendo dados da tabela Página

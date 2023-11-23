@@ -1,5 +1,5 @@
 <div class="container">
-	<h2>FALE CONOSCO</h2>
+	<h2>Orçamento</h2>
 	<form id="contactForm" action="?pg=contatodb" class="custom-form" method="post">
 
 		<label>Nome:</label> <input type="text" class="form-control" name="nome" required="" data-validation-required-message="Please enter your name."><br>
